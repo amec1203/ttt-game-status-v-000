@@ -7,10 +7,10 @@ def won?(board)
 end
 
 def won?(board)
-  WIN_COMBINATIONS.each do |winning_combo|
-
-  end 
-end 
+  WIN_COMBINATIONS.detect do |win_combo|
+    board[win_combo[0]] == board[win_combo[1]] && board[win_combo[0]]
+  end
+end
 
 WIN_COMBINATIONS = [
   [0,1,2],
