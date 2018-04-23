@@ -4,9 +4,13 @@ def position_taken?(board, index)
 end
 
 def won?(board)
-end 
+end
 
-WIN_COMBINATIONS.find do |winning_combo|
+def won?(board)
+  WIN_COMBINATIONS.each do |winning_combo|
+
+  end 
+end 
 
 WIN_COMBINATIONS = [
   [0,1,2],
