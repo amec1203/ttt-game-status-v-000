@@ -3,7 +3,7 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
-won?
+def won?()
 WIN_COMBINATIONS.each do |winning_array|
 
 
