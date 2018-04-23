@@ -7,7 +7,7 @@ def won?(board)
 end 
 
 WIN_COMBINATIONS.each do |winning_array|
-  
+
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
